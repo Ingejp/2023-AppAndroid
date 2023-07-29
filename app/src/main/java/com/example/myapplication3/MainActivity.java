@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view){
         Intent intent = null;
-        intent = new Intent(this, MainActivity2.class );
+        intent = new Intent(this, MainActivity3.class );
 
         if (intent!=null){
             startActivity(intent);
