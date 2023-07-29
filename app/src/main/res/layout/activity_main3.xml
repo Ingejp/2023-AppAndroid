@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="En esta activity se concentran las funcionalidades para insertar, cosultar, actualizar y eliminar estudiantes."
+            android:text="En esta activity se concentran las funcionalidades para insertar, cosultar, actualizar y eliminar productos."
             android:textAlignment="viewStart"
             android:textSize="16sp" />
 
