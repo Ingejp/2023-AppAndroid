@@ -18,6 +18,14 @@ public class MainActivity3 extends AppCompatActivity {
         Intent intent = null;
         intent = new Intent(this, MainActivity.class );
 
+        switch (view.getId()){
+            case R.id.btnInsert:
+                intent = new Intent(this, RegistrarProducto.class );
+                break;
+            case R.id.btnRegresarMenu:
+                intent = new Intent(getApplicationContext(), MainActivity.class);
+                break;
+        }
         if (intent!=null){
             startActivity(intent);
         }

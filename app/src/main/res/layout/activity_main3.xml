@@ -31,12 +31,12 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnInsert"
             android:layout_width="327dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
-            android:text="Rgistrar" />
+            android:text="Registrar" />
 
         <Button
             android:id="@+id/button5"
@@ -63,7 +63,7 @@
             android:text="Eliminar" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnRegresarMenu"
             android:layout_width="393dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
