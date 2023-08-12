@@ -6,6 +6,10 @@ public class Producto {
     private String nombre;
     private String precio;
 
+    public Producto(){
+
+    }
+
     public Producto(String id, String nombre, String precio) {
         this.id = id;
         this.nombre = nombre;

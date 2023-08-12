@@ -22,6 +22,9 @@ public class MainActivity3 extends AppCompatActivity {
             case R.id.btnInsert:
                 intent = new Intent(this, RegistrarProducto.class );
                 break;
+            case R.id.btnListar:
+                intent = new Intent(this, ListaProductos.class );
+                break;
             case R.id.btnRegresarMenu:
                 intent = new Intent(getApplicationContext(), MainActivity.class);
                 break;

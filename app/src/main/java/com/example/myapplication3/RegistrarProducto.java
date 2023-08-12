@@ -30,7 +30,7 @@ public class RegistrarProducto extends AppCompatActivity {
                 this.registrarProducto();
                 break;
             case R.id.btnCancelar:
-                intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent = new Intent(getApplicationContext(), MainActivity3.class);
                 break;
         }
         if (intent!=null){
